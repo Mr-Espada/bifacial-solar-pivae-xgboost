@@ -1,45 +1,16 @@
 {
   "review_date": "2026-10-04",
-  "state": "PUBLIC_GITHUB_RELEASE_AT_USER_DIRECTION",
-  "project_code_license": null,
-  "upstream_notice": "MIT; Machine Learning and Global Health Network (2022)",
-  "article_license": "CC-BY-3.0 applies to article",
-  "data_included": false,
-  "weights_or_posteriors_included": false,
+  "state": "PUBLIC",
   "github_repository_url": "https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost",
-  "proposed_repository_name": "bifacial-solar-pivae-xgboost",
-  "historical_contributor_roles": [
-    {
-      "name": "Mehdi Nejjar",
-      "github": "https://github.com/mehdinejjar86",
-      "roles": [
-        "framework suggestion",
-        "code contribution"
-      ],
-      "source": "Mohammad's explicit account on 4 October 2026"
-    },
-    {
-      "name": "Mohammad Hachim Eraissouni",
-      "roles": [
-        "deep-learning implementation and evaluation",
-        "iterative modelling revisions",
-        "manuscript section",
-        "results and figures"
-      ],
-      "source": "personal account; not framework originator"
-    }
-  ],
-  "software_citation_roster": "Collective reconstruction label provisional; historical contributors separately credited",
-  "publication_requirements": "docs/RELEASE_CHECKLIST.md",
+  "initial_public_release_tag": "v0.1.1",
+  "publication_date": "2026-10-04",
   "github_publication_authorized_by_user": true,
-  "publication_instruction_date": "2026-10-04",
-  "publication_instructions": [
-    "well you should publish it in my github",
-    "create the repo and publish the work"
-  ],
+  "project_code_license": null,
+  "project_code_license_authorized_by_rights_holders": false,
   "project_code_rights_verified": false,
   "derived_summary_rights_verified": false,
-  "project_code_license_authorized_by_rights_holders": false,
-  "initial_public_release_tag": "v0.1.1",
-  "authorization_boundary": "The user directed this public upload after notice of unresolved licensing. No independent co-author, institutional, or data-provider authorization is asserted; no blanket license selected."
+  "upstream_notice": "MIT; Machine Learning and Global Health Network (2022)",
+  "article_license": "CC-BY-3.0",
+  "data_included": false,
+  "weights_or_posteriors_included": false
 }

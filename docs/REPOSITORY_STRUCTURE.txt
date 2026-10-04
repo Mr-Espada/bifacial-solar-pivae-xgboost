@@ -10,11 +10,8 @@ public-release/
   configs/reconstruction.json
   configs/verification.json
   docs/ATTRIBUTION.md
-  docs/CONTRIBUTION_EVIDENCE.md
   docs/DATA.md
   docs/PUBLICATION_STATUS.json
-  docs/RECONSTRUCTION_IMPLEMENTATION_PLAN.md
-  docs/RECONSTRUCTION_SOURCE_AUDIT.md
   docs/RELEASE_CHECKLIST.md
   docs/REPOSITORY_STRUCTURE.txt
   docs/REPRODUCIBILITY.md

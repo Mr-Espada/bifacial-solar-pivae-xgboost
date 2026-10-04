@@ -2,7 +2,7 @@
 
 Profile: `reconstruction_500_epochs`. Seed: `20261003`.
 
-These are measured reconstruction results, not a claim to replicate the paper's almost-perfect numbers. The paper omits the final settings and source fitted models are absent.
+These are October 2026 reconstruction results. The paper's final settings and fitted models are unavailable, so its reported scores could not be reproduced.
 
 Training uses the original 130,048 rows on eight dates. Scoring uses all 17,280 observations on the held-out August 28, 2024. Training includes August 29 as in the paper; this is held-out-day simulation, not future forecasting.
 
@@ -53,6 +53,6 @@ Quality gate requires Rhat at or below the configured threshold, minimum bulk ES
 
 `resolved_config.json`, `environment.json`, stage manifests, original CSV hashes, fitted neural/tree models, posterior samples and Stan chain CSVs identify this run. `metrics.json` and `metrics.csv` include separate training-fit and first-stage out-of-fold scores. Outlet training scores fit stage two using out-of-fold Q; they are not out-of-fold outlet scores.
 
-Run `python -m pivae_hybrid.cli evaluate --config <same config> --run-dir <this run>` to regenerate every metric and plot without fitting. See the project README for individual stage commands and `docs/RECONSTRUCTION_SOURCE_AUDIT.md` for paper/source discrepancies.
+Run `python -m pivae_hybrid.cli evaluate --config configs/reconstruction.json --data-dir /path/to/authorized-data --run-dir runs/checked-copy` to regenerate scores and plots from a compatible saved run without fitting. See the [README](../../README.md) for stage commands and the [research audit](../../docs/RESEARCH_AUDIT.md) for paper/source discrepancies.
 
 Plots show all held-out rows; scatter and combined-record lines use deterministic display thinning only. No metrics are thinned. XGBoost importance is training gain, not a causal explanation.

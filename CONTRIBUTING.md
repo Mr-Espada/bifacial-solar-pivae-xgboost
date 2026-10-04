@@ -1,11 +1,14 @@
 # Contributing
 
-This is an October 2026 reconstruction associated with a published study. Preserve the separation between historical source, reconstructed experiments and new diagnostics.
+Open an issue or pull request with a brief description of the change. For code changes, run:
 
-1. Describe whether a change is maintenance or a new scientific experiment. Record scientific changes in `CHANGELOG.md`, use a new run directory, and keep the configuration, source hashes and diagnostic reports.
-2. Retain historical code and reported results as evidence. Add a new comparison rather than overwriting old outputs or changing the paper's claims.
-3. Run `python -m pytest -q` and `python scripts/check_release.py`. Model/posterior/diagnostic bindings, whole-day fold boundaries and the hybrid's πVAE-stage binding must pass. Failed posterior diagnostics stop downstream use.
-4. Supply synthetic fixtures for tests. Keep measurement files, trained artifacts, row-level predictions, original notebook outputs, generated measurement-derived figures and credentials out of ordinary Git.
-5. Credit adapted code with its original notice and citation. Describe actual individual contributions; do not manufacture historical Git activity or infer file authorship from the paper author list.
+```bash
+python -m pytest -q
+python scripts/check_release.py
+```
 
-The publication instruction remains separate from technical validation and licensing. `python scripts/check_release.py --require-public-approval` checks the explicit recorded instruction to upload publicly and prevents an unsupported blanket-license assertion. Do not treat it as ownership or data-provider permission; see `docs/RELEASE_CHECKLIST.md`.
+Keep data, model weights, posterior samples, row-level predictions and credentials out of Git. Use synthetic fixtures in tests.
+
+For new experiments, save the configuration and diagnostics in a fresh run directory and add a dated changelog entry. Keep earlier results intact, and label new comparisons separately from the published study.
+
+Retain notices and citations when adapting third-party code.

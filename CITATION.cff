@@ -1,13 +1,17 @@
 cff-version: 1.2.0
 type: software
-message: "Please cite the article in preferred-citation. Historical roles are credited in CONTRIBUTORS.md; the reconstruction software roster remains provisional."
-title: "Auditable October 2026 reconstruction of the solar-collector piVAE-XGBoost workflow"
+message: "Please cite the paper in preferred-citation when using this repository."
+title: "Bifacial solar thermal modelling with πVAE and XGBoost"
 version: 0.1.1
 date-released: "2026-10-04"
 repository-code: https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost
 url: https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost
 authors:
-  - name: "Solar-collector reconstruction contributors"
+  - family-names: Nejjar
+    given-names: Mehdi
+    website: https://github.com/mehdinejjar86
+  - family-names: Eraissouni
+    given-names: Mohammad Hachim
 preferred-citation:
   type: article
   title: "A Hybrid πVAE-XGBoost Framework for High-Fidelity Simulation of Bifacial Solar Thermal Collectors"

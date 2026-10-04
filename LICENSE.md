@@ -1,11 +1,9 @@
-# Licensing status
+# License
 
-This source repository is published at Mohammad Hachim Eraissouni's explicit direction. It has **no project-wide open-source license**. Publication does not independently establish sole ownership of jointly created or institutionally associated code, or an approved license for the solar-project additions.
+The solar-project code has no project-wide open-source license.
 
-The reused upstream πVAE material retains its original [MIT license and copyright notice](third_party/pi-vae/LICENSE). That notice applies to upstream material; it is not presented as a blanket grant for the solar-project additions.
+Reused πVAE code retains the [MIT license and copyright notice](third_party/pi-vae/LICENSE) of Machine Learning and Global Health Network. That license covers the upstream material.
 
-The research article is published under CC BY 3.0. It does not establish the permissions for separate project code or InES measurement files. Dependencies retain their own licenses and are installed separately.
+The research article is licensed under CC BY 3.0. Its license does not cover the separate project code or measurement data. Dependencies retain their own licenses.
 
-Raw measurements, models, posterior arrays, row-level outputs, original notebook outputs and generated measurement-derived figures are excluded. The record does not independently confirm the data provider's permission for the new aggregate reconstruction summaries.
-
-An agreed project license, institutional/project ownership allocation, and dataset/derived-output permissions remain decisions for the relevant rights holders. The user's upload instruction is recorded separately from those unverified matters. See [attribution](docs/ATTRIBUTION.md), [publication status](docs/PUBLICATION_STATUS.json), and the [publication record](docs/RELEASE_CHECKLIST.md).
+Data and trained artifacts are not distributed in this repository. See [data access](docs/DATA.md) and [attribution](docs/ATTRIBUTION.md).
