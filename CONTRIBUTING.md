@@ -8,4 +8,4 @@ This is an October 2026 reconstruction associated with a published study. Preser
 4. Supply synthetic fixtures for tests. Keep measurement files, trained artifacts, row-level predictions, original notebook outputs, generated measurement-derived figures and credentials out of ordinary Git.
 5. Credit adapted code with its original notice and citation. Describe actual individual contributions; do not manufacture historical Git activity or infer file authorship from the paper author list.
 
-The publication permission gate remains separate from technical validation. `python scripts/check_release.py --require-public-approval` must pass before a public push, after the documented rights holder(s) resolve the release requirements.
+The publication instruction remains separate from technical validation and licensing. `python scripts/check_release.py --require-public-approval` checks the explicit recorded instruction to upload publicly and prevents an unsupported blanket-license assertion. Do not treat it as ownership or data-provider permission; see `docs/RELEASE_CHECKLIST.md`.

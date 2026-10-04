@@ -1,25 +1,24 @@
-# Requirements before public GitHub publication
+# Publication record and licensing decisions
 
-The source candidate is prepared privately. Proposed repository name: **bifacial-solar-pivae-xgboost**. No public repository or release tag exists yet.
+Repository: [https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost](https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost). Initial source release: **v0.1.1**.
 
-## Outstanding authorization
+## Publication instruction
 
-1. **Solar-project code:** obtain confirmation from the actual code rights holder(s) that the solar-project adaptations, the selected historical Python/Stan source and the source-only notebook may be published. The confirmation should identify any jointly owned contributions and the license approved for the resulting repository. Mohammad and Mehdi are credited code contributors, but the recovered record does not establish the complete ownership allocation.
-2. **Project/institutional rights:** ask Dr. Ahmed Khallaayoun to confirm, with the relevant Al Akhawayn University authority if applicable, whether a supervision, employment, funding or project agreement controls release. If it does, obtain the required institutional/project approval. Do not presume either that the university owns the code or that it has waived rights.
-3. **Data-derived summaries:** obtain confirmation from the InES data provider/agreement holder that the new aggregate scores and descriptive summaries may be made public. The existing research-use consent does not document this permission. Raw data, weights, posteriors, row-level predictions and generated data-derived figures remain excluded; distributing them would need a separate, explicit grant.
-4. **Software citation:** confirm the reconstruction contributor roster with the team. The paper's five-author citation is verified; the software citation currently uses an explicitly provisional collective name. Confirming historical roles alone does not identify every reconstruction author.
+After receiving the preparation report and its stated licensing uncertainties, Mohammad explicitly directed creation and publication on his GitHub account. That subsequent instruction governs this upload. It does not independently verify ownership or grant rights on behalf of other parties. `PUBLICATION_STATUS.json` records the upload instruction separately from unverified code/data rights.
 
-Keep the actual confirmations privately; record only their approved scope and appropriate non-sensitive references in `PUBLICATION_STATUS.json`. Set authorization flags only after those confirmations. Select a conventional project license only when the rights holders approve it, preserving the upstream MIT notice.
+## Technical publication checks
 
-## Technical preparation completed locally
+The reviewed source tree excludes raw measurements, trained artifacts, posterior arrays, row-level predictions, original notebook outputs and generated data-derived figures. Source scans, staged-blob comparisons, unchanged scientific core/configs, tests, bounded saved-run execution and citation checks are recorded in `VALIDATION.md`. Original archives and audit evidence remain private. No historical Git history is fabricated or imported.
 
-Historical/source preservation, artifact hashes, posterior quality gates, hybrid-stage binding, distinct optimizer logs, interrupted-stage protection, portable instructions, contributor credits, dependency pins, tests, bounded saved-run execution, notebook boundaries, citation validation and source scans are documented in `VALIDATION.md`. No full model retraining is required merely to publish the reviewed source.
+## Remaining licensing and attribution decisions
 
-## Publication after authorization
+1. Confirm the solar-project code ownership allocation with the contributors and agree on any project-wide code license. The upstream MIT notice must remain intact; it does not license every project addition.
+2. Ask Dr. Ahmed Khallaayoun and the appropriate Al Akhawayn University authority, if applicable, to establish whether a supervision, employment, funding or project agreement affects ownership or distribution. No institutional ownership or waiver is presumed.
+3. Confirm with the InES agreement holder the permitted use of newly generated aggregate summaries. Raw measurements and fitted/row-level artifacts remain excluded; expanding distribution needs an explicit scope-specific decision.
+4. Confirm the reconstruction software-citation roster with the team. Historical role credits and the five-author paper citation are preserved; the software citation's collective reconstruction label remains provisional.
 
-- Recheck the complete Git tree and staged changes; run both release scans and the tests. Inspect the reviewed publication-status and license changes.
-- Create the GitHub repository in the requested account under the professional name above, then push the reviewed maintenance commit. Keep the initial commit's actual preparation date; do not import invented historical commits.
-- Set the repository URL in the README/citation/status, commit that metadata, recheck the final commit, and create an initial version tag for that final commit if appropriate. Record its full SHA and tag in the final report.
-- Verify the remote tree and release contents after upload. Do not call a local commit a public GitHub release.
+Record any later approvals accurately and keep private correspondence outside the repository. No confirmed license or ownership grant is claimed by this initial source release.
 
-This checklist follows the user's explicit instruction to stop public publication when ownership or data permissions are unresolved. It is not a new consent requirement inferred from a repository skill.
+## Remote verification
+
+Verify that GitHub's public `main` branch matches the reviewed local commit and that tag `v0.1.1` resolves to that same commit. The publication receipt outside the source repository records the actual remote SHA, release URL, source-archive hashes and completed checks.

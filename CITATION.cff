@@ -3,6 +3,9 @@ type: software
 message: "Please cite the article in preferred-citation. Historical roles are credited in CONTRIBUTORS.md; the reconstruction software roster remains provisional."
 title: "Auditable October 2026 reconstruction of the solar-collector piVAE-XGBoost workflow"
 version: 0.1.1
+date-released: "2026-10-04"
+repository-code: https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost
+url: https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost
 authors:
   - name: "Solar-collector reconstruction contributors"
 preferred-citation:

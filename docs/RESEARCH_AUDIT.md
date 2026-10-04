@@ -1,5 +1,7 @@
 # Research audit: published solar-collector study and retained reconstruction
 
+**Pre-cleanup audit snapshot:** the release hold below describes the state at audit time. The user's subsequent publication instruction and current unverified licensing status are recorded separately in [PUBLICATION_STATUS.json](PUBLICATION_STATUS.json) and [ATTRIBUTION.md](ATTRIBUTION.md). Scientific findings below are preserved.
+
 Audit date: 4 October 2026. Recorded before creating the cleanup candidate. The 34 supplied files (165,289 bytes) were read and hashed; no original file was edited. This report distinguishes historical source, publication, October 2026 reconstruction, personal account, and inference. File ownership, archive timestamps, and paper authorship do not establish individual code authorship.
 
 ## Scope and evidence

@@ -22,18 +22,16 @@ Cite the method: S. Mishra, S. Flaxman, T. Berah, H. Zhu, M. Pakkanen, S. Bhatt.
 
 Dependencies are separate software distributions: PyTorch; Stan/CmdStan/CmdStanPy; XGBoost; NumPy, pandas, SciPy, scikit-learn, matplotlib and pytest. This repository does not grant rights to them or include their full source/binaries. Preserve their own licenses if redistributing dependencies. XGBoost's methodological reference is T. Chen and C. Guestrin, [“XGBoost: A Scalable Tree Boosting System”](https://arxiv.org/abs/1603.02754), 2016.
 
-InES measurements have no established redistribution grant here. CSVs, raw predictions, weights/posteriors, notebook outputs and generated data-derived images remain private; new aggregate summaries also require confirmation of their permitted use.
+InES measurements have no established redistribution grant here. CSVs, raw predictions, weights/posteriors, notebook outputs and generated data-derived images remain private. New aggregate summaries are included at the user's direction; independent confirmation of their permitted use is absent from the recovered record.
 
 ## October 2026 maintenance and citation metadata
 
 The reconstruction, tests, forensic review, artifact-binding corrections and application-language drafts are AI-assisted maintenance/reconstruction. They are distinct from the historical research contribution. Existing source records do not establish an exact individual reconstruction-author roster. `CITATION.cff` therefore uses a descriptive collective software-contributor label and a verified `preferred-citation` containing the article authors. That collective label is not an institution, an ownership claim, or an attribution of every code file to every paper author. Resolve the software contributor roster with the team before a definitive software citation/release.
 
-## Public-release hold
+## User-directed GitHub publication and unresolved licensing
 
-No root `LICENSE` has been selected. No remote repository was created or uploaded. The technical candidate is prepared locally; public release awaits confirmation from the authorized rights holder(s):
+Repository: [https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost](https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost); initial source release `v0.1.1`. Following local preparation and notice of the unresolved rights questions, Mohammad explicitly instructed: “well you should publish it in my github” and “create the repo and publish the work.” The repository is therefore uploaded publicly at his direction.
 
-1. Permission to publish the solar-project adaptations and the historical source excerpts, including any co-author/university ownership requirements and contributor acknowledgement.
-2. Permission under the InES/data agreement to share the new aggregated reconstruction summaries. Actual data/binary/row-level artifacts remain excluded and would need a separate distribution grant.
-3. Agreement on any project-wide code license if one is desired. Upstream MIT notices must remain intact regardless; article CC BY does not substitute for this grant.
+This is evidence of the user's upload instruction, not independent evidence of consent from every co-author, an institution or the data provider. No blanket code license has been selected, and no third-party permission has been invented. The ownership allocation, an agreed project license, institutional/project requirements if applicable, and permission for new aggregate summaries remain unverified. Raw data and fitted/row-level artifacts remain excluded.
 
-The explicit [licensing note](../LICENSE.md) and [release requirements](RELEASE_CHECKLIST.md) identify the remaining permissions. This hold follows both the original Phase 6/8 instruction and the follow-up's licensing/publication requirement. Authentication/access to GitHub is available. A public URL is absent because publication has stopped at the ownership boundary after local preparation.
+The [licensing note](../LICENSE.md) and [publication record](RELEASE_CHECKLIST.md) preserve these distinctions. The earlier pre-cleanup audit describes the hold that existed when it was written; it is retained as a dated snapshot rather than rewritten to imply that the permissions were independently verified.

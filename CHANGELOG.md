@@ -1,5 +1,11 @@
 # Changelog
 
+## Public source release — 4 October 2026
+
+- Published version 0.1.1 at the user's explicit direction after the preparation report identified licensing uncertainties. Added the actual repository URL and release citation metadata; no third-party authorization or blanket project license is inferred.
+- The publication gate now records explicit user upload authorization separately from unverified code/data rights and rejects an unsupported project-license assertion. Numerical source, configurations, original results and exclusion of raw data/artifacts remain unchanged.
+- Retained the earlier local-preparation hold as historical evidence; current publication/licensing status is in `docs/PUBLICATION_STATUS.json`.
+
 ## 0.1.1 — 4 October 2026: audit and repository maintenance
 
 - Finalization: explicitly credited Mehdi Nejjar (@mehdinejjar86 / Night^^Stalker), from Mohammad's account, for suggesting the framework and contributing to code. Preserved all five paper authors and Mohammad's narrower role. Completed research CV, factual referee points, a 60–90 second interview answer and technical questions.

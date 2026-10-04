@@ -1,15 +1,12 @@
 {
   "review_date": "2026-10-04",
-  "state": "LOCAL_CANDIDATE_PUBLICATION_ON_HOLD",
-  "project_code_publication_authorized": false,
-  "derived_summary_publication_authorized": false,
+  "state": "PUBLIC_GITHUB_RELEASE_AT_USER_DIRECTION",
   "project_code_license": null,
   "upstream_notice": "MIT; Machine Learning and Global Health Network (2022)",
   "article_license": "CC-BY-3.0 applies to article",
   "data_included": false,
   "weights_or_posteriors_included": false,
-  "github_repository_url": null,
-  "reason": "No retained grant establishing rights to publish solar-project code or new aggregated data-derived summaries. User required stopping before inappropriate public publication.",
+  "github_repository_url": "https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost",
   "proposed_repository_name": "bifacial-solar-pivae-xgboost",
   "historical_contributor_roles": [
     {
@@ -33,5 +30,16 @@
     }
   ],
   "software_citation_roster": "Collective reconstruction label provisional; historical contributors separately credited",
-  "publication_requirements": "docs/RELEASE_CHECKLIST.md"
+  "publication_requirements": "docs/RELEASE_CHECKLIST.md",
+  "github_publication_authorized_by_user": true,
+  "publication_instruction_date": "2026-10-04",
+  "publication_instructions": [
+    "well you should publish it in my github",
+    "create the repo and publish the work"
+  ],
+  "project_code_rights_verified": false,
+  "derived_summary_rights_verified": false,
+  "project_code_license_authorized_by_rights_holders": false,
+  "initial_public_release_tag": "v0.1.1",
+  "authorization_boundary": "The user directed this public upload after notice of unresolved licensing. No independent co-author, institutional, or data-provider authorization is asserted; no blanket license selected."
 }

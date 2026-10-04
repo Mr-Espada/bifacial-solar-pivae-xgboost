@@ -1,6 +1,6 @@
 # Validation record — 4 October 2026
 
-All original files and raw scientific artifacts were read-only. Validation ran in isolated working/run/install locations. No full neural/HMC training, original-result replacement or GitHub upload occurred.
+All original files and raw scientific artifacts were read-only. Validation ran in isolated working/run/install locations. No full neural/HMC training or original-result replacement occurred. The numerical checks preceded the subsequent user-directed source publication.
 
 | Check | Observed result | Boundary |
 |---|---|---|
@@ -25,7 +25,8 @@ All original files and raw scientific artifacts were read-only. Validation ran i
 | Historical notebook | First nine original cells executed; missing MCMC file stops cell 9 | Full execution/reproduction unavailable; all 21 code-cell sources preserved in stripped public copy |
 | Citation | Official CFF 1.2.0 JSON Schema validation passes; five publication authors preserved in preferred citation | Collective software label is explicitly provisional; individual authorship unresolved |
 | Release scan | Candidate text/files checked for recognized secrets, personal paths, large/binary/data payloads and notebook outputs | Bounded pattern scan, not universal secret proof; original history absent |
-| Public-approval gate | Deliberately fails for two unresolved rights-holder authorizations | This is the user's requested ownership boundary; no public remote/repository created |
+| Initial preparation gate | Failed for the two then-unresolved rights-holder confirmations | Dated preparation evidence; not a claim that rights were later verified |
+| User-directed publication gate | Recorded explicit subsequent upload instruction; unsupported blanket-license assertions still refused | Upload authorization and third-party ownership/data rights are distinct |
 
 Verified commands from the README include tests, audit, explicit saved-run import, predict/inference, evaluate, verify-run, command help and release scanning. New long-profile training/Stan installation commands are documented but were not re-executed. A working pinned Stan toolchain was read for retained posterior checks; complete new training and alternate platforms remain unverified.
 
@@ -35,4 +36,4 @@ The finalized candidate contains 56 source/document files. All 335 original fing
 
 The final wheel's SHA-256 is `c45f5978225f7dc2fb2b05883d922732ba22fa61fc0f7610d5b3db9772603d9e`. Its isolated installation, all 13 module imports, dependency consistency, packaged Stan/upstream notice, CLI/script help, full-day imported inference and metric/plot paths were checked again. The citation passes the official CFF schema with Mehdi's profile link; local Markdown references have no broken destinations.
 
-The final local repository has a new maintenance commit, no inherited research commits and no remote. Every staged blob was compared with the scanned candidate tree before committing. This commit records October 2026 preparation and contributor acknowledgement; it must not be described as original research history or a public release. The final SHA, source-only ZIP hash and local receipt are recorded outside the candidate to avoid a self-referential commit record.
+The initial local commit records October 2026 preparation, with no inherited research commits. The subsequent source-publication commit adds repository/citation metadata and records the user's direct upload instruction. Every staged blob is compared with the scanned tree; remote commit/tag verification is recorded in the publication receipt outside the candidate. Neither commit is presented as original research history.

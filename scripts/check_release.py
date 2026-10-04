@@ -55,12 +55,13 @@ def main():
                 errors.append(f"{name}: tracked payload excluded from candidate scan")
     status = json.loads((root / "docs" / "PUBLICATION_STATUS.json").read_text())
     if args.require_public_approval:
-        for key in ("project_code_publication_authorized", "derived_summary_publication_authorized"):
-            if status.get(key) is not True:
-                errors.append(f"Publication hold: {key} unresolved")
+        if status.get("github_publication_authorized_by_user") is not True:
+            errors.append("Publication hold: explicit user upload instruction absent")
+        if status.get("project_code_license") and status.get("project_code_license_authorized_by_rights_holders") is not True:
+            errors.append("Publication hold: blanket code license has no recorded rights-holder approval")
     print(json.dumps({"files_checked": len(files), "errors": errors,
                       "scope": "Candidate tree and tracked file names; no original Git history exists",
-                      "limitation": "Pattern scan cannot detect every possible secret; rights are checked separately"}, indent=2))
+                      "limitation": "Pattern scan is bounded; the upload-instruction gate does not establish third-party rights"}, indent=2))
     raise SystemExit(1 if errors else 0)
 
 

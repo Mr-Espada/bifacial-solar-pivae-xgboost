@@ -58,7 +58,6 @@
   "all_five_posterior_exports_match_stan": true,
   "full_training_rerun": false,
   "paper_metrics_independently_reproduced": false,
-  "public_release_authorized": false,
   "finalization": {
     "installed_wheel_used": true,
     "commands_passed": [
@@ -83,5 +82,10 @@
     "core_and_configs_byte_identical": true,
     "broken_local_markdown_links": 0,
     "contributor_credit": "Mehdi Nejjar: framework suggestion and code contribution; based on Mohammad's explicit account"
-  }
+  },
+  "github_publication_authorized_by_user": true,
+  "publication_metadata_date": "2026-10-04",
+  "project_code_rights_verified": false,
+  "derived_summary_rights_verified": false,
+  "numerical_code_and_configs_unchanged_for_publication": true
 }

@@ -2,7 +2,7 @@
 
 An auditable **October 2026 reconstruction** associated with Fakir et al., “A Hybrid πVAE-XGBoost Framework for High-Fidelity Simulation of Bifacial Solar Thermal Collectors,” *Materials Research Proceedings* 64 (2026), 171–178. [Publication DOI](https://doi.org/10.21741/9781644904091-21).
 
-**Publication status:** prepared locally; public release awaits authorization for the solar-project code and new aggregated reconstruction summaries. There is no blanket code license or public GitHub URL. The MIT notice for reused upstream πVAE code is preserved separately. Data, trained models, posterior draws and row-level outputs are excluded. See [attribution/rights](docs/ATTRIBUTION.md).
+**Source repository:** [https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost](https://github.com/Mr-Espada/bifacial-solar-pivae-xgboost). Initial source release: **v0.1.1**, October 2026. Published at Mohammad's explicit direction; this instruction does not independently establish third-party ownership or licensing rights. No blanket project code license is granted; upstream πVAE's MIT notice is preserved separately. Data, trained models, posterior draws and row-level outputs are excluded. See [licensing status](LICENSE.md) and [attribution](docs/ATTRIBUTION.md).
 
 The research models nonlinear relationships among solar irradiance, measured temperatures and environmental conditions in a bifacial collector. The paper describes a πVAE stage predicting thermal power Q and an XGBoost stage using predicted Q and original inputs to estimate outlet temperature. This package makes that interpretation executable and auditable; it does **not** recover the authors' complete final experiment or reproduce their almost-perfect published scores.
 
@@ -149,7 +149,7 @@ README.md              Research/workflow/evidence guide
 CHANGELOG.md           Original versus 2026 versus future work
 CITATION.cff           Preferred research citation; no ownership grant
 CONTRIBUTORS.md        Named historical roles and their evidence boundaries
-LICENSE.md             Project-license hold and upstream/data distinctions
+LICENSE.md             Unresolved project licensing and upstream/data distinctions
 CONTRIBUTING.md        Provenance-preserving change and validation workflow
 requirements.txt       Pinned numerical/model dependencies
 pyproject.toml         Installable package and command
@@ -162,9 +162,7 @@ python scripts/check_release.py
 python scripts/check_release.py --require-public-approval
 ```
 
-The second command deliberately fails until the documented rights-holder authorizations are resolved. A passed file scan alone does not authorize publication.
-
-The exact remaining permissions and subsequent publication steps are in [RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md).
+The second command checks the recorded explicit user publication instruction and refuses an unapproved blanket license assertion. It does not certify ownership or data-provider permission. The [publication record](docs/RELEASE_CHECKLIST.md) keeps those unresolved questions separate from technical validation.
 
 ## Citation
 
