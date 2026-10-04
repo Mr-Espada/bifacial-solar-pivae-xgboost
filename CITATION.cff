@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+type: software
+message: "Please cite the article in preferred-citation. Historical roles are credited in CONTRIBUTORS.md; the reconstruction software roster remains provisional."
+title: "Auditable October 2026 reconstruction of the solar-collector piVAE-XGBoost workflow"
+version: 0.1.1
+authors:
+  - name: "Solar-collector reconstruction contributors"
+preferred-citation:
+  type: article
+  title: "A Hybrid πVAE-XGBoost Framework for High-Fidelity Simulation of Bifacial Solar Thermal Collectors"
+  authors:
+    - family-names: Fakir
+      given-names: Imane
+    - family-names: Nejjar
+      given-names: Mehdi
+      website: https://github.com/mehdinejjar86
+    - family-names: Eraissouni
+      given-names: Mohammad Hachim
+    - family-names: Kessab
+      given-names: Adam
+    - family-names: Khallaayoun
+      given-names: Ahmed
+  journal: Materials Research Proceedings
+  volume: "64"
+  start: "171"
+  end: "178"
+  year: 2026
+  doi: 10.21741/9781644904091-21
+  url: https://mrforum.com/product/9781644904091-21/

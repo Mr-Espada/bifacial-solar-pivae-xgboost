@@ -1,0 +1,8 @@
+Historical neural source and its reconstruction/refactoring derive substantially
+from MLGlobalHealth/pi-vae, commit 14de0377500ce175115a6509a802e473c3466a54.
+Copyright (c) 2022 Machine Learning and Global Health Network.
+The full upstream MIT notice is preserved in third_party/pi-vae/LICENSE.
+
+This notice does not grant a license to separately owned solar-project changes,
+the InES measurements, or all repository content. No blanket project license
+has been selected. See docs/ATTRIBUTION.md and docs/PUBLICATION_STATUS.json.

@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-04",
+  "state": "LOCAL_CANDIDATE_PUBLICATION_ON_HOLD",
+  "project_code_publication_authorized": false,
+  "derived_summary_publication_authorized": false,
+  "project_code_license": null,
+  "upstream_notice": "MIT; Machine Learning and Global Health Network (2022)",
+  "article_license": "CC-BY-3.0 applies to article",
+  "data_included": false,
+  "weights_or_posteriors_included": false,
+  "github_repository_url": null,
+  "reason": "No retained grant establishing rights to publish solar-project code or new aggregated data-derived summaries. User required stopping before inappropriate public publication.",
+  "proposed_repository_name": "bifacial-solar-pivae-xgboost",
+  "historical_contributor_roles": [
+    {
+      "name": "Mehdi Nejjar",
+      "github": "https://github.com/mehdinejjar86",
+      "roles": [
+        "framework suggestion",
+        "code contribution"
+      ],
+      "source": "Mohammad's explicit account on 4 October 2026"
+    },
+    {
+      "name": "Mohammad Hachim Eraissouni",
+      "roles": [
+        "deep-learning implementation and evaluation",
+        "iterative modelling revisions",
+        "manuscript section",
+        "results and figures"
+      ],
+      "source": "personal account; not framework originator"
+    }
+  ],
+  "software_citation_roster": "Collective reconstruction label provisional; historical contributors separately credited",
+  "publication_requirements": "docs/RELEASE_CHECKLIST.md"
+}

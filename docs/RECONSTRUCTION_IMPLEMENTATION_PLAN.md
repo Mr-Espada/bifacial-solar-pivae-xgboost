@@ -1,0 +1,12 @@
+# Implementation plan (recorded before code changes, 2026-10-03)
+
+1. Preserve the two raw CSVs byte for byte and snapshot all five original files. Archive the original entry point and Stan program before replacing their unsafe execution path.
+2. Use the ten inputs in paper Fig. 3 for both targets: inlet, ambient, ventilation and tracker temperatures; global, diffuse and infrared irradiance; wind; zenith; azimuth. Use an explicit allowlist. Exclude actual Q, outlet temperature, delta temperature and all other unspecified columns from predictors.
+3. Refactor the existing RBF/tanh feature map, coefficient VAE and tanh decoder into import-safe components. Predict Q, fit scaling/centers/neural weights only on training data, and correct the changing minibatch-slot coefficient interpretation.
+4. Condition Stan/HMC only on training Q. Keep its Gaussian latent prior, decoder and observation model. Use exact QR sufficient statistics for the Gaussian likelihood to make all training observations practical; generate new-location predictions outside Stan without target arguments. Distinguish latent-function credible intervals from observation posterior predictive intervals.
+5. Generate whole-day out-of-fold Q predictions within the training CSV, refitting all first-stage components in each fold. Fit a separate final first stage on all training rows for test inference. Use only out-of-fold predicted Q to train stacked outlet-temperature regressors.
+6. Fit comparable fixed-parameter XGBoost experiments: direct Q, direct outlet temperature, outlet temperature with piVAE Q, and outlet temperature with XGBoost Q. Never tune on August 28 or feed measured Q to either outlet-temperature model.
+7. Save aligned predictions, training loss, posterior diagnostics, seeds, resolved configuration and provenance. Evaluate R2, Pearson, Spearman, MAE, RMSE, interval coverage and width in physical units. Report train fit, train out-of-fold and held-out scores separately where available.
+8. Add executable leakage/invariance and numerical tests, a full reproduction configuration, a shorter verification configuration, install instructions and commands for each stage. Run real end-to-end verification, report its settings and diagnostics honestly, and verify raw hashes again.
+
+Exact numerical replication is not promised: the paper omits experimental settings and its original fitted artifacts are absent. The reconstruction will report measured results under explicitly stated settings.

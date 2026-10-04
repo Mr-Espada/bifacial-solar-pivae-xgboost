@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pivae-hybrid"
+version = "0.1.1"
+description = "Auditable piVAE/Stan to XGBoost solar thermal reconstruction"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dynamic = ["dependencies"]
+
+[project.scripts]
+pivae-experiment = "pivae_hybrid.cli:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools]
+license-files = ["NOTICE", "third_party/pi-vae/LICENSE"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pivae_hybrid = ["*.stan"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

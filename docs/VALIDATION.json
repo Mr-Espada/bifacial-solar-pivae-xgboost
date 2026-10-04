@@ -1,0 +1,87 @@
+{
+  "review_date": "2026-10-04",
+  "original_fingerprints_verified_unchanged": 335,
+  "requested_files_unchanged": 34,
+  "tests_passed_original": 19,
+  "tests_passed_candidate": 36,
+  "dependency_check": "No broken requirements found with isolated SymPy 1.13.1 overlay",
+  "wheel": {
+    "wheel_version": "0.1.1",
+    "wheel_sha256": "c45f5978225f7dc2fb2b05883d922732ba22fa61fc0f7610d5b3db9772603d9e",
+    "all_13_modules_imported": true,
+    "installed_path_verified": true,
+    "wheel_contains_stan_and_full_upstream_notice": true,
+    "dependency_check": "No broken requirements found.",
+    "cli_and_script_help_passed": true,
+    "scope": "Isolated installed wheel plus compatible SymPy overlay; remaining numerical dependencies read from retained environment",
+    "serialized_full_day_inference_unchanged": true,
+    "rows": 17280,
+    "sympy_version": "1.13.1"
+  },
+  "citation": {
+    "schema": "CFF 1.2.0, official schema",
+    "valid": true,
+    "preferred_citation_authors": [
+      "Imane Fakir",
+      "Mehdi Nejjar",
+      "Mohammad Hachim Eraissouni",
+      "Adam Kessab",
+      "Ahmed Khallaayoun"
+    ],
+    "license_field_omitted": true,
+    "mehdi_profile": "https://github.com/mehdinejjar86"
+  },
+  "historical_notebook": {
+    "executed_cells": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "stopped_at_cell": 9,
+    "reason": "Missing original mcmc_1000.csv; full historical execution unavailable",
+    "reads": [
+      "../train_simulation.csv",
+      "../test_simulation.csv",
+      "../mcmc_1000.csv"
+    ]
+  },
+  "recomputed_metric_records": 12,
+  "full_test_rows": 17280,
+  "target_absent_and_poisoned_invariant": true,
+  "maintained_metrics_json_equals_original": true,
+  "all_five_posterior_exports_match_stan": true,
+  "full_training_rerun": false,
+  "paper_metrics_independently_reproduced": false,
+  "public_release_authorized": false,
+  "finalization": {
+    "installed_wheel_used": true,
+    "commands_passed": [
+      "audit",
+      "evaluate",
+      "verify-run",
+      "predict"
+    ],
+    "recomputed_metric_records": 12,
+    "metrics_json_equals_original": true,
+    "full_test_rows": 17280,
+    "serialized_full_day_inference_unchanged": true,
+    "source_run_unchanged": true,
+    "all_row_target_absent_and_poisoned_invariant": true,
+    "new_target_free_inference_rows": 128,
+    "plots_png": 10,
+    "plots_svg": 10,
+    "full_training_rerun": false,
+    "validation_recorder_repair": "Corrected a summary-key lookup from records to metrics after successful commands; validated their logs and artifacts without repeating experiments.",
+    "candidate_files": 56,
+    "original_hashes_and_timestamps_unchanged": true,
+    "core_and_configs_byte_identical": true,
+    "broken_local_markdown_links": 0,
+    "contributor_credit": "Mehdi Nejjar: framework suggestion and code contribution; based on Mohammad's explicit account"
+  }
+}
